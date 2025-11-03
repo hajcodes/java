@@ -1,0 +1,17 @@
+package com.tnsif.finalkeyworddemo;
+//demo for final keyword
+//variable
+//method
+//class
+public class finaldemo {
+final static int a=8;  // u cant change value
+	
+	static {
+		int a=9;
+	}
+	void display() { // cant override
+		System.out.println("welcome to java");
+	}
+
+	
+}
