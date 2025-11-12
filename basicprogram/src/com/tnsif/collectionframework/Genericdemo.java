@@ -20,7 +20,7 @@ public class Genericdemo {
 		
 		// traversing list through Iterator
 		
-		Iterator itr=lis.iterator();
+		Iterator<String> itr=lis.iterator();
 		while(itr.hasNext()) {//check if iterator has a element
 			System.out.println(itr.next());// printing the element and move next
 		}
